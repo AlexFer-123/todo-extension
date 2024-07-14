@@ -1,5 +1,10 @@
-// webpack.mix.js
+const mix = require('laravel-mix');
 
-let mix = require('laravel-mix');
-
-mix.js('src/app.js', 'dist').setPublicPath('dist');
+mix.js('resources/js/background.js', 'public/js')
+   .js('resources/js/content.js', 'public/js')
+   .sass('resources/sass/app.scss', 'public/css')
+   .webpackConfig({
+       resolve: {
+           extensions: ['.wasm', '.mjs', '.js', '.jsx', '.json']
+       }
+   });
