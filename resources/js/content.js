@@ -1,11 +1,7 @@
-// resources/js/content.js
+import Vue from 'vue';
+import App from './components/App.vue';
 
-// Código para modificar o DOM da página
-document.body.style.backgroundColor = 'lightblue';
-
-// Escutar cliques em botões
-document.addEventListener('click', (event) => {
-    if (event.target.tagName === 'BUTTON') {
-        alert('Botão clicado!');
-    }
+new Vue({
+  el: '#app',
+  render: h => h(App)
 });
