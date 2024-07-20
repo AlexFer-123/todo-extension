@@ -568,7 +568,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { attrs: { id: "app" } }, [
-      _c("h1", [_vm._v("Minha Aplicação Vue com Laravel Mix")]),
+      _c("h1", [_vm._v("To-do app")]),
     ])
   },
 ]

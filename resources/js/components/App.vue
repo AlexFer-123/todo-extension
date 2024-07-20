@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-      <h1>Minha Aplicação Vue com Laravel Mix</h1>
+      <h1>To-do app</h1>
     </div>
   </template>
   
