@@ -37,6 +37,7 @@
   "dependencies": {
     "typed.js": "^2.0.12",
     "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
     "vuetify": "^2.7.2"
   }
 }
