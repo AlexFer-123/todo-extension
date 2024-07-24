@@ -5504,7 +5504,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2.6.4", "vue@^2.7.16":
+"vue@^2.0.0", "vue@^2.6.4", "vue@^2.7.16":
   "integrity" "sha512-4gCtFXaAA3zYZdTp5s4Hl2sozuySsgz4jy1EnpBHNfpMa9dK1ZCG7viqBPCwXtmgc8nHqUsAu3G4gtmXkkY3Sw=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-2.7.16.tgz"
   "version" "2.7.16"
@@ -5516,6 +5516,11 @@
   "integrity" "sha512-qr04ww7uzAPQbpk751x4fSdjsJ+zREzjQ/rBlcQGuWS6MIMFMXcXcwvp4+/tnGsULZxPMWfQ0kmZmg5Yc/XzgQ=="
   "resolved" "https://registry.npmjs.org/vuetify/-/vuetify-2.7.2.tgz"
   "version" "2.7.2"
+
+"vuex@^3.6.2":
+  "integrity" "sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw=="
+  "resolved" "https://registry.npmjs.org/vuex/-/vuex-3.6.2.tgz"
+  "version" "3.6.2"
 
 "watchpack@^2.4.1":
   "integrity" "sha512-8wrBCMtVhqcXP2Sup1ctSkga6uc2Bx0IIvKyT7yTFier5AXHooSI+QyQQAtTb7+E0IUCCKyTFmXqdqgum2XWGg=="

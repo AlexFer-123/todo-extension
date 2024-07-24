@@ -5,12 +5,24 @@
         <router-link to="/about">About</router-link>
       </nav>
       <router-view></router-view>
+      <p>{{ message }}</p>
+      <button @click="updateMessage">Atualizar Mensagem</button>
     </div>
   </template>
   
   <script>
   export default {
-    name: 'App'
+    name: 'App',
+    computed: {
+    message() {
+      return this.$store.getters.message;
+    }
+    },
+    methods: {
+      updateMessage() {
+        this.$store.dispatch('updateMessage', 'Nova mensagem do Vuex');
+      }
+    }
   };
   </script>
   
